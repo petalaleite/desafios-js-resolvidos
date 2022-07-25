@@ -59,3 +59,12 @@ function funcao(str) {
 }
 
 funcao(str);
+
+// convert celsius to fahrenheit
+
+const convertCelsiusToFahrenheit = (celsius) => {
+	let fahrenheit = Math.round((celsius * 1.8) + 32);
+	return `${celsius}°C is ${fahrenheit}°F`;
+}
+
+console.log(convertCelsiusToFahrenheit(26));
